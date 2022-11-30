@@ -15,11 +15,14 @@ if (resultA == 0 & numB*numB == numA)
     Console.WriteLine("Да");
 }
 else
-if (resultB == 0 & numA*numA ==numB)
 {
-    Console.WriteLine("Да");
-}
-else
-{
-    Console.WriteLine("Нет");
+    if (resultB == 0 & numA*numA ==numB)
+    {
+        Console.WriteLine("Да");
+    }
+
+    else
+    {
+        Console.WriteLine("Нет");
+    }
 }
