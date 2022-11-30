@@ -8,7 +8,11 @@ int number = random.Next(100, 1000);
 
 int firstNumber = number / 100;
 int lastNumber = number % 10;
+
+int result = firstNumber*10 + lastNumber;
+
 Console.Write(number);
 Console.Write("-> ");
-Console.Write(firstNumber);
-Console.Write(lastNumber);
+Console.Write(result);
+//Console.Write(firstNumber);
+//Console.Write(lastNumber);
